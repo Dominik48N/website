@@ -1,9 +1,16 @@
 import React from "react";
 
+import "./Information.sass";
+
 export class Information extends React.Component {
 
     render() {
-        return <h1>Information Component</h1>;
+        return (
+            <div>
+                <h3 className="name">Dominik48N</h3>
+                <h4>software engineer</h4>
+            </div>
+        );
     }
 
 }
