@@ -9,7 +9,7 @@ export class Links extends React.Component {
             <div className="container">
                 <a href="/projects" className="left-text link">Projects</a>
                 <a href="/skills" className="left-text link">Skills</a>
-                <a href="/contact" className="link">Contact</a>
+                <a href="mailto:admin@dominik48n.de" className="link">Contact</a>
             </div>
         );
     }
