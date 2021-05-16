@@ -2,15 +2,17 @@ import React from 'react';
 import './App.sass';
 
 import { Information } from "./components/information";
-import { Links } from "./components/links";
+
+import { Route, BrowserRouter } from "react-router-dom";
 
 export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <Information />
-          <Links />
-      </header>
-    </div>
+      <BrowserRouter>
+          <div className="App">
+              <header className="App-header">
+                  <Route path={["/", "/home"]} exact component={Information} />
+              </header>
+          </div>
+      </BrowserRouter>
   );
 }
