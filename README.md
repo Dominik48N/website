@@ -2,4 +2,4 @@
 This is my private website. 
 
 ## License
-The website is [MIT licensed](https://github.com/Dominik48N/website/blob/master/LICENSE).
+The website is [GNU Affero General Public License v3.0](https://github.com/Dominik48N/website/blob/master/LICENSE).
