@@ -2,6 +2,7 @@ import React from "react";
 
 import { Languages } from "./languages";
 import { Databases } from "./databases";
+import { Frameworks } from "./frameworks";
 
 export class Skills extends React.Component {
 
@@ -11,6 +12,7 @@ export class Skills extends React.Component {
                 <div className="skills-container">
                     <Languages />
                     <Databases />
+                    <Frameworks />
                 </div>
             </header>
         );
