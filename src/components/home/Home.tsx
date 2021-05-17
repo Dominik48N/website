@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Information } from "../information";
-import { Links } from "../links";
+import { Information } from "./information";
+import { Links } from "./links";
 
 export class Home extends React.Component {
 
