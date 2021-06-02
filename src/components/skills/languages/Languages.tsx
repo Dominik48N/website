@@ -10,6 +10,7 @@ const typescript = "https://img.icons8.com/ios/452/typescript.png";
 const html = "https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png";
 const css = "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png";
 const sass = "https://cdn.iconscout.com/icon/free/png-512/sass-226054.png";
+const go = "https://user-images.githubusercontent.com/3613230/41752586-476b0b24-7596-11e8-95fe-8fd3faa21e8a.png";
 
 export class Languages extends React.Component {
 
@@ -25,6 +26,7 @@ export class Languages extends React.Component {
                 <img src={ sass } title="SASS" alt="SASS Icon" height="56px" width="56px" />
                 <img src={ html } title="HTML" alt="HTML Icon" height="56px" width="56px" />
                 <img src={ css } title="CSS" alt="CSS Icon" height="56px" width="56px" />
+                <img src={ go } title="GoLang" alt="Go Icon" height="56px" width="56px" />
             </div>
         );
     }
